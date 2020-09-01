@@ -1,0 +1,153 @@
+
+body {
+    background-color: #ebfffb;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23769ecb' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23faf3dd' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2368a8ca' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23f1edd5' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2364b0c5' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23e7e7cd' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%236bb7bc' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23dde1c6' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%237bbdb2' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23d3dcbf' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%238fc1a9' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23c8d6b9' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+}
+
+
+
+div.info{
+    width: 35%;
+}
+
+
+svg {
+
+    margin: 10px;
+}
+
+rect {
+    fill: white;
+    stroke-width: 3;
+    stroke:gray;
+}
+
+.sub-line
+{
+    fill:none;
+    stroke:gray;
+    stroke-width:3;
+}
+.subLine {
+
+    fill:none;
+    stroke:black;
+    stroke-dasharray: 6px;
+    stroke-linecap: round;
+    stroke-width:3
+}
+
+.mainLine {
+
+    
+    stroke: black;
+    stroke-width: 4;
+}
+
+
+.mainCircle  {
+
+    fill: none;
+    stroke :gray;
+    stroke-width :4;
+}
+
+    .clicked:hover {
+
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+
+   
+    
+
+
+.res_idea{
+    fill: #518fc9;
+}
+
+.res_standard{
+    fill: #9DBAD5;
+}
+
+.res_fund{
+    fill: #FAF3DD;
+}
+.res_support{
+    fill: #C8D6B9;
+}
+
+
+
+
+.res_reward {
+    fill: #8FC1A9;
+}
+
+.id {
+
+    font-size: 50;
+
+} 
+
+.mainBadge tspan {
+
+    
+    font: bold 25px sans-serif; 
+    fill: black; 
+    text-anchor: middle;
+
+}
+
+
+
+.SubCircle {
+    fill: white;
+    stroke: gray;
+    stroke-width: 4;
+    box-shadow: 10px 10px 5px grey;
+
+}
+
+.color-aliceblue {
+    fill: aliceblue;
+}
+
+
+.subBadge tspan { 
+    fill: black; 
+    text-anchor: middle;
+}
+
+text {
+    font: bold 20px sans-serif;
+    
+}
+
+
+.color-lightgreen {
+    fill: #dee6d7;
+}
+
+
+div.content {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 50px;
+    font-size: 20px;
+    display: none;
+    
+  }
+
+#agenda-content {
+    display: block;
+}
+
+
+
