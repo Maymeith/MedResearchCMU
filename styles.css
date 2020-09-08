@@ -4,11 +4,11 @@ body {
 }
 svg {
 
-  border:1px solid red;
+  
 }
 
 .info{
-  border:1px solid black
+  
 }
 .workflow {
   width: 70%;
@@ -19,7 +19,7 @@ svg {
 
 svg {
     width: 70%;
-    height: 100%;
+    
     
 }
 
@@ -244,13 +244,6 @@ rect {
 .res_reward {
   fill: #8FC1A9;
 }
-
-.id {
-
-  font-size: 50;
-
-} 
-
 .mainBadge tspan {
 
   
@@ -292,7 +285,7 @@ div.content {
   position: sticky;
   top: 0;
   padding: 50px;
-  font-size: 1vw;
+  font-size: 1.3vw;
   display: none;
   
 }
@@ -422,12 +415,14 @@ p.text-left {
     text-align: left;
 }
 
-div.text-box {
+.text-box {
+  margin: 10px;
   padding: 10px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px #000000;
 }
 
 h1 {
+  font-size: 2vw;
   text-align: center;
 }
