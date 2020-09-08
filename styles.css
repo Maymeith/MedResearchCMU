@@ -387,13 +387,12 @@ div.content {
 }
 
 .flow-family-tree li:first-child:before {
-  left: 50%;
-  width: 50%;
+
+  width: 100%;
 }
 
 .flow-family-tree li:last-child:before {
-  right: 50%;
-  width: 50%;
+  width: 100%;
 }
 
 .flow-family-tree li:only-child:before {
@@ -439,10 +438,18 @@ p.text-left {
   padding: 10px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px #000000;
+  
 }
 
 h1 {
   font-size: 2vw;
   font-weight: 200;
   text-align: center;
+}
+
+#fund-content p {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px #000000;
 }
