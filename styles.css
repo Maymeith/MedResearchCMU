@@ -94,7 +94,7 @@ rect {
 }
 
 tspan {
-  font-weight: 100;
+  font-weight: 200;
 }
 
    
@@ -125,7 +125,7 @@ tspan {
 
 .mainBadge tspan {
 
-    font-weight: 100;
+    font-weight: 200;
     font: bold 20 sans-serif; 
     fill: white; 
     text-anchor: middle;
