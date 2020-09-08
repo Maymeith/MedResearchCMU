@@ -1,9 +1,46 @@
 
-body {
-  display: flex;
+@media only screen and (max-width: 767px) {
+  
+  body{
+    display: flex;
+    flex-direction: column;
+  }
+  .flow{
+    
+    width: 100%;
+  }
+
+  .info{
+    width: 100%;
+  }
+
+  svg {
+    width: 100%;
+    
+  }
+
+
 }
 
-
+@media only screen and (min-width: 768px) {
+  body{
+    display: flex;
+    flex-direction: row;
+  }
+  .flow{
+    
+    width: 60%;
+  }
+  
+  .info{
+    width: 40%;
+  }
+  
+  svg {
+    width: 100%;
+    
+  }
+}  
 
 
 rect {
@@ -123,24 +160,6 @@ text {
 
 .color-lightgreen {
     fill: #dee6d7;
-}
-
-body{
-  display: flex;
-  flex-direction: row;
-}
-.flow{
-  
-  width: 60%;
-}
-
-.info{
-  width: 40%;
-}
-
-svg {
-  width: 100%;
-  
 }
 
 
