@@ -4,29 +4,25 @@ body {
 }
 
 
-.workflow {
- 
-}
-.info {
-  
-}
 
-svg {
- 
-    
-    
-}
 
 rect {
     fill: white;
     stroke-width: 3;
-    stroke:gray;
+    
 }
 
+.clicked rect {
+  stroke: rgba(79,192,141,0.5);
+}
+
+.clicked circle {
+  stroke: rgba(79,192,141,0.5);
+}
 .sub-line
 {
     fill:none;
-    stroke:gray;
+    
     stroke-width:3;
 }
 .subLine {
@@ -49,7 +45,7 @@ rect {
 .mainCircle  {
 
     fill: none;
-    stroke :gray;
+    
     stroke-width :4;
 }
 
@@ -60,6 +56,9 @@ rect {
 
 }
 
+tspan {
+  font-weight: 100;
+}
 
    
     
@@ -89,9 +88,9 @@ rect {
 
 .mainBadge tspan {
 
-    
-    font: bold 25px sans-serif; 
-    fill: black; 
+    font-weight: 100;
+    font: bold 20 sans-serif; 
+    fill: white; 
     text-anchor: middle;
 
 }
@@ -100,7 +99,7 @@ rect {
 
 .SubCircle {
     fill: white;
-    stroke: gray;
+    
     stroke-width: 4;
     box-shadow: 10px 10px 5px grey;
 
@@ -174,7 +173,7 @@ svg {
 rect {
   fill: white;
   stroke-width: 3;
-  stroke:gray;
+  
 }
 
 .sub-line
@@ -186,7 +185,7 @@ rect {
 .subLine {
 
   fill:none;
-  stroke:black;
+  stroke:gray;
   stroke-dasharray: 6px;
   stroke-linecap: round;
   stroke-width:3
@@ -195,7 +194,7 @@ rect {
 .mainLine {
 
   
-  stroke: black;
+  stroke: gray;
   stroke-width: 4;
 }
 
@@ -205,6 +204,10 @@ rect {
   fill: none;
   stroke :gray;
   stroke-width :4;
+}
+
+.click {
+  stroke:rgba(79,192,141,0.5);
 }
 
   .clicked:hover {
@@ -236,6 +239,7 @@ rect {
 
   
   font: bold 25px sans-serif; 
+  font-weight: 100;
   fill: black; 
   text-anchor: middle;
 
@@ -249,6 +253,12 @@ rect {
 
 }
 
+.SubCircle .click {
+  stroke: black;
+}
+
+
+
 .color-aliceblue {
   fill: aliceblue;
 }
@@ -260,6 +270,7 @@ rect {
 
 text {
   font: bold 20px sans-serif;
+  font-weight: 100;
   
 }
 
@@ -274,6 +285,7 @@ div.content {
   top: 0;
   padding: 50px;
   font-size: 1.3vw;
+  font-weight: 200;
   display: none;
   
 }
@@ -412,5 +424,6 @@ p.text-left {
 
 h1 {
   font-size: 2vw;
+  font-weight: 200;
   text-align: center;
 }
