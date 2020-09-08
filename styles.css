@@ -2,14 +2,8 @@
 body {
   display: flex;
 }
-svg {
 
-  
-}
 
-.info{
-  
-}
 .workflow {
   width: 70%;
 }
@@ -92,12 +86,6 @@ rect {
 .res_reward {
     fill: #8FC1A9;
 }
-
-.id {
-
-    font-size: 50;
-
-} 
 
 .mainBadge tspan {
 
