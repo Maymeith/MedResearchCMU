@@ -1,0 +1,176 @@
+[33mcommit 683c84608aed4c50ae3880821b2c6977b2dcf672[m[33m ([m[1;36mHEAD -> [m[1;32mWeb[m[33m, [m[1;31morigin/Web[m[33m)[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Wed Sep 9 10:43:58 2020 +0700
+
+    view portrait , landscape
+
+[33mcommit c8518d6698f4ceb5511fe074e88323147648ab76[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 8 13:22:38 2020 +0700
+
+    font weigh fix
+
+[33mcommit 51b665aef450e0dd811cf524ff25c3980d851ce6[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 8 13:17:02 2020 +0700
+
+    fund fix test
+
+[33mcommit 9ab135aff9004f5a7232b9edbb885e09d3e92ce1[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 8 11:59:31 2020 +0700
+
+    font+text fix
+
+[33mcommit 4a963e3ed1eec5f8fef89a32d9d977fa8115981e[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 8 11:38:14 2020 +0700
+
+    @media update
+    
+    update @media fix view
+
+[33mcommit 8a8015741865a47152508708a5e0903f9fc729e8[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 8 11:15:41 2020 +0700
+
+    font fix
+
+[33mcommit 2237c1d51b356b1fd5a11a19044a7095cfedcc5e[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 8 10:43:58 2020 +0700
+
+    remove width
+
+[33mcommit 4f4e377c4c98b87e4ef78391dd30ebf7e7f133c8[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 8 10:38:13 2020 +0700
+
+    Update styles.css
+
+[33mcommit e4177f1136e5aa55ca48317d4b26b4e509892bcf[m
+Merge: 70f6310 3ba1d2a
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 8 10:36:34 2020 +0700
+
+    Update index.html
+
+[33mcommit 70f6310082cf0b56901c803183cfea65a033e6e8[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 8 10:28:41 2020 +0700
+
+    update
+
+[33mcommit afca1bf85b1cd83fa0115a7ff660eed526a1f544[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 8 08:57:29 2020 +0700
+
+    Update index.html
+
+[33mcommit 3ba1d2a23231b6b2b284497e18e2ff9569ce35b4[m
+Author: Maymeith <maythasit.th@gmail.com>
+Date:   Tue Sep 8 08:53:47 2020 +0700
+
+    Update styles.css
+
+[33mcommit ed4801f9cfc5e7ea708a2633e252b97559828741[m
+Author: Maymeith <maythasit.th@gmail.com>
+Date:   Tue Sep 8 08:52:28 2020 +0700
+
+    Update styles.css
+
+[33mcommit a8597cf36f8684bec500a5e9f24a595e30efc99e[m
+Author: Maymeith <maythasit.th@gmail.com>
+Date:   Tue Sep 8 08:51:40 2020 +0700
+
+    Update index.html
+
+[33mcommit f21bad023f3ca25fdb1c8d7c6c8c8ddb165f629f[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 8 08:49:35 2020 +0700
+
+    Delete background.svg
+
+[33mcommit 089ed0d56920d2368ae8e89fb5d44b2cdb1b311f[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 8 08:44:47 2020 +0700
+
+    fix viewpoint desktop
+    
+    -background became problem so i delete it
+    
+    -the way i form text is messy in the future should fix it
+
+[33mcommit 3b343202cd8a8c5e5f3a88d27a7700423ae7f101[m
+Merge: 2c52dbf 1c479fb
+Author: Maythasit <methasit250@gmail.com>
+Date:   Wed Sep 2 14:14:10 2020 +0700
+
+    Merge branch 'Web' of https://github.com/Maymeith/MedResearchCMU into Web
+
+[33mcommit 2c52dbf5900df9e938eedd66a58963d75e31a3bb[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Wed Sep 2 14:14:06 2020 +0700
+
+    text copy right
+    
+    change style copy right
+
+[33mcommit 1c479fb9a1889e87343e7508b1a334ac6262e534[m
+Author: Maymeith <methasit250@gmail.com>
+Date:   Wed Sep 2 13:24:53 2020 +0700
+
+    Create README.md
+
+[33mcommit 21394b5f203ca40cc30bb5d1b8a00f608e1c96f1[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Wed Sep 2 13:22:56 2020 +0700
+
+    just test push
+
+[33mcommit eb682e4b3ea62039c4fb3a7d3fc9d875625178e2[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Wed Sep 2 13:20:59 2020 +0700
+
+    Update styles.css
+
+[33mcommit 719bcb576162814688c93b37adf3f8f2efc38857[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Wed Sep 2 13:19:11 2020 +0700
+
+    fix text , bg colour
+
+[33mcommit fe69466c650ad072a938e70c3f2b59c3118ad498[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Wed Sep 2 12:59:29 2020 +0700
+
+    Update index.html
+
+[33mcommit bb9ccf3e7c67e01c198e329050f26df43a76bcae[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Wed Sep 2 12:58:40 2020 +0700
+
+    add todo
+
+[33mcommit d9802ac7e3e93e6574df3d32b40c511f721bd0f8[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Wed Sep 2 12:06:57 2020 +0700
+
+    change text + css add flow
+    
+    add flow to css
+    change text
+
+[33mcommit c68cbe2c9c7b66204db33fe6b287010a8fb5f538[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 1 11:44:15 2020 +0700
+
+    star
+
+[33mcommit 04fc0fee142d18679838512f7a49ea90a919307c[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Maythasit <methasit250@gmail.com>
+Date:   Tue Sep 1 11:41:11 2020 +0700
+
+    webpage
+    
+    web home page
