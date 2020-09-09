@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 767px) {
+@media (orientation: portrait) {
   
   body{
     display: flex;
@@ -22,7 +22,7 @@
 
 }
 
-@media only screen and (min-width: 768px) {
+@media  (orientation: landscape) {
   body{
     display: flex;
     flex-direction: row;
