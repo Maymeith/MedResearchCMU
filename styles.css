@@ -43,11 +43,7 @@
 }  
 
 
-rect {
-    fill: white;
-    stroke-width: 3;
-    
-}
+
 
 .clicked rect {
   stroke: rgba(79,192,141,0.5);
@@ -56,35 +52,12 @@ rect {
 .clicked circle {
   stroke: rgba(79,192,141,0.5);
 }
-.sub-line
-{
-    fill:none;
-    
-    stroke-width:3;
-}
-.subLine {
-
-    fill:none;
-    stroke:black;
-    stroke-dasharray: 6px;
-    stroke-linecap: round;
-    stroke-width:3
-}
-
-.mainLine {
-
-    
-    stroke: black;
-    stroke-width: 4;
-}
 
 
-.mainCircle  {
 
-    fill: none;
-    
-    stroke-width :4;
-}
+
+
+
 
     .clicked:hover {
 
@@ -101,27 +74,6 @@ tspan {
     
 
 
-.res_idea{
-    fill: #518fc9;
-}
-
-.res_standard{
-    fill: #9DBAD5;
-}
-
-.res_fund{
-    fill: #FAF3DD;
-}
-.res_support{
-    fill: #C8D6B9;
-}
-
-
-
-
-.res_reward {
-    fill: #8FC1A9;
-}
 
 .mainBadge tspan {
 
@@ -237,7 +189,7 @@ rect {
 }
 
 .res_idea{
-  fill: #518fc9;
+  fill: #5ea4e6;
 }
 
 .res_standard{
