@@ -53,65 +53,8 @@
   stroke: rgba(79,192,141,0.5);
 }
 
-
-
-
-
-
-
-    .clicked:hover {
-
-    opacity: 0.5;
-    cursor: pointer;
-
-}
-
 tspan {
   font-weight: 500;
-}
-
-   
-    
-
-
-
-.mainBadge tspan {
-
-  
-    font: bold 20 sans-serif; 
-    fill: white; 
-    text-anchor: middle;
-
-}
-
-
-
-.SubCircle {
-    fill: white;
-    
-    stroke-width: 4;
-    box-shadow: 10px 10px 5px grey;
-
-}
-
-.color-aliceblue {
-    fill: aliceblue;
-}
-
-
-.subBadge tspan { 
-    fill: black; 
-    text-anchor: middle;
-}
-
-text {
-    font: bold 20px sans-serif;
-    
-}
-
-
-.color-lightgreen {
-    fill: #dee6d7;
 }
 
 
@@ -189,7 +132,7 @@ rect {
 }
 
 .res_idea{
-  fill: #5ea4e6;
+  fill: #8ab1d4;
 }
 
 .res_standard{
@@ -199,6 +142,7 @@ rect {
 .res_fund{
   fill: #FAF3DD;
 }
+
 .res_support{
   fill: #C8D6B9;
 }
@@ -206,9 +150,9 @@ rect {
 .res_reward {
   fill: #8FC1A9;
 }
+
 .mainBadge tspan {
 
-  
   font: bold 25px sans-serif; 
   font-weight: 500;
   fill: black; 
@@ -217,6 +161,7 @@ rect {
 }
 
 .SubCircle {
+
   fill: white;
   stroke: gray;
   stroke-width: 4;
@@ -226,12 +171,6 @@ rect {
 
 .SubCircle .click {
   stroke: black;
-}
-
-
-
-.color-aliceblue {
-  fill: aliceblue;
 }
 
 .subBadge tspan { 
@@ -244,11 +183,6 @@ text {
   font-weight: 500;
   
 }
-
-.color-lightgreen {
-  fill: #dee6d7;
-}
-
 
 div.content {
   position: -webkit-sticky;
@@ -264,8 +198,6 @@ div.content {
 #agenda-content {
   display: block;
 }
-
-
 
 .flow-family-tree {
   box-sizing: border-box;
@@ -379,7 +311,6 @@ a:after {
   transition: top 200ms cubic-bezier(0, .8, .13, 1);
   background-color: rgba(79,192,141,0.5);
 }
-
 
 p.text-left {
     text-align: left;
