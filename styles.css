@@ -49,7 +49,12 @@
 }  
 
 svg {
-  font-family: 'Prompt', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.box-text text {
+  font-size: 26px;
 }
 
 body {
@@ -87,9 +92,7 @@ div.content h1 {
   stroke: rgba(79,192,141,0.5);
 }
 
-tspan {
-  font-weight: 500;
-}
+
 
 rect {
   fill: white;
@@ -160,7 +163,6 @@ rect {
 .mainBadge tspan {
 
   
-  font-weight: 500;
   fill: black; 
   text-anchor: middle;
 
@@ -184,11 +186,6 @@ rect {
   text-anchor: middle;
 }
 
-text {
-  
-  font-weight: 500;
-  
-}
 
 
 #agenda-content {
