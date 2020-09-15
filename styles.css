@@ -3,50 +3,82 @@
 
 @media (orientation: portrait) {
   
-  body{
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-  }
-  .flow{
-    
-    width: 100%;
-  }
+          body{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            border: #8ab1d4 solid 1px;
+          }
+          .flow{
+            
+            width: 100%;
+          }
 
-  .info{
-  
-   width: fit-content;
-  }
+          .info{
+          
+          width: 100%;
+          overflow: scroll;
+          }
 
-  svg {
-    width: 100%;
-    
-  }
-
-
-  
+          svg {
+            width: 100%;
+            
+          }
+          /* .content {
+            position: fixed;
+            display: none;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 2;
+            cursor: pointer;
+            
+          }
+   */
   
 
 }
 
 @media  (orientation: landscape) {
-  body{
-    display: flex;
-    flex-direction: row;
-  }
-  .flow{
+        body{
+          display: flex;
+          flex-direction: row;
+         
+        }
+        .flow{
+          
+          width: 60%;
+        }
+        
+        .info{
+          float: right;
+          width: 40%;
 
-    width: 60%;
-  }
-  
-  .info{
-    width: 40%;
-  }
-  
-  svg {
-    width: 100%;
-    
-  }
+         
+          
+        }
+        
+        svg {
+          width: 100%;
+          
+        }
+
+        
+        div.content {
+        
+        position: sticky;
+        top: 0;
+        padding: 10px;
+        font-size: 28px;
+        font-weight: 500;
+        display: none;
+
+        
+        
+      }
+
 
 }  
 
@@ -64,17 +96,6 @@ body {
 }
 
 
-
-div.content {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 50px;
-  font-size: 28px;
-  font-weight: 500;
-  display: none;
-  
-}
 
 div.content h1 {
 
@@ -194,108 +215,26 @@ rect {
   display: block;
 }
 
-.flow-family-tree {
-  box-sizing: border-box;
-  outline: none;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-  width: 100%;
-  text-align: center;
-  
-}
-
-.flow-family-tree *,
-.flow-family-tree *::after,
-.flow-family-tree *::before {
-  box-sizing: border-box;
-  outline: none;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.flow-family-tree ul {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-  position: relative;
-  padding: 1em 0;
-}
-
-.flow-family-tree ul:after {
-  content: '';
-  position: absolute;
-  top: 1em;
-  left: 50%;
-  height: 1em;
-  border-left: 3px solid black;
-}
-
-.flow-family-tree > ul {
-  padding: 0;
-}
-
-.flow-family-tree li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  position: relative;
-  padding: 3em 1em 0 1em;
-}
-
-.flow-family-tree li:before {
-  content: '';
-  position: absolute;
-  top: 1em;
-  width: 100%;
-  border-top: 3px solid black;
-}
-
-.flow-family-tree li:after {
-  content: '';
-  position: absolute;
-  top: 1em;
-  left: 50%;
-  height: 1em;
-  border-left: 3px solid black;
-}
-
-.flow-family-tree li:first-child:before {
-
-  width: 100%;
-}
-
-.flow-family-tree li:last-child:before {
-  width: 100%;
-}
-
-.flow-family-tree li:only-child:before {
-  display: none;
-}
-
-.flow-family-tree > li {
-  padding: 0;
-}
-
-.flow-family-tree > li:before, .flow-family-tree > li:after {
-  display: none;
-}
 a {
   text-decoration: none;
   color: #121314;
   position: relative;
 }
 
-a:hover:after {
+.link-blue {
+  color: blue;
+  text-decoration: underline;
+}
+
+.link-blue:hover {
+  font-weight: bold;
+}
+
+.link-green:hover:after {
   top: 0%;
 }
 
-a:after {
+.link-green:after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -312,14 +251,32 @@ p.text-left {
 }
 
 .text-box {
-  margin: 10px;
+  
   padding: 10px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px #000000;
-  width: 700px;
+  width: fit-content; 
+  margin: auto;
+  
 }
 
 .reason {
   text-align: left;
   font-size: 24px;
 }
+
+
+.line {
+  width: 0px;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  left: 50%;
+  height: 1em;
+  border-left: 6px solid black;
+  
+
+  
+}
+
+
