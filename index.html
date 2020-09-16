@@ -114,7 +114,7 @@
                     
                     </g>
                     </a>
-                    <g class="box-text clicked" onclick="showContent('ec-expedited')">
+                    <g class="box-text clicked" onclick="showContent('ec-expedited')" href="#ec-expedited-content">
                     <rect x="890" y=255 width="145" height="35"/> 
                     <text x="900" y="280">Expedited</text>
                     </g>
@@ -153,11 +153,12 @@
                     </a>
                     
                     <polyline class="sub-line" points="780,550 940,550"  />
-
+                    <a href="#top">
                     <g class="box-text clicked" onclick="showContent('ac-fullboard')">
                         <rect x="940" y=530 width="140" height="35"/> 
                         <text x="950" y="555">Full Board</text>
                     </g>
+                    </a>
 
                 <a target="_blank" rel="noopener noreferrer" href="https://w1.med.cmu.ac.th/research/Homepage/CMU_IBC/Default.html">
                 <g class="subBadge clicked">
@@ -173,7 +174,8 @@
                         <tspan x="700" dy=1.2em>CMU-BIC02</tspan>
                     </text>
             </g>
-        </a>
+                </a>
+                <a href="#top">
                 <g class="box-text clicked" onclick="showContent('bsl1')">
                     <rect x="930" y=665 width="85" height="35"/>
                     <text x="940" y="690">
@@ -186,6 +188,7 @@
                         <tspan> BSL-2 </tspan>
                     </text>
                 </g>
+                </a>
                 <polyline class="sub-line" points="780,750 850,700 930,700"  />
                 <polyline class="sub-line" points="780,750 850,800 930,800"  />
                 
@@ -194,7 +197,8 @@
 
             </g>
             <!-- RESEARCH FUND -->
-            <g class="button clicked" onclick="showContent('fund')">
+            <a href="#top">
+            <g class="button clicked" onclick="showContent('fund')" href="#fund-content">
                 <g class="mainBadge">
                     <circle class="mainCircle res_fund click" 
                     r="150"
@@ -211,7 +215,7 @@
                 </g>
                 
             </g>
-            
+            </a>
             <!-- RESEARCH SUPPORT -->
             <g id="button">  
                 <!-- LINE -->
@@ -254,7 +258,7 @@
                     
                 </g>
                 </a>
-
+                <a href="#top">
                 <g class="subBadge clicked" onclick="showContent('manuscript')">
                     <circle class="SubCircle color-lightgreen" 
                     r="80"
@@ -266,6 +270,8 @@
                         <tspan>Manuscript</tspan>
                     </text>
                 </g>
+
+                </a>
 
                 <g class="subBadge  ">
                     <circle class="SubCircle click" 
@@ -279,6 +285,7 @@
                     </text>
                 </g>
 
+                <a href="#top">
                 <g class="subBadge clicked" onclick="showContent('internationalpersentaion')">
                     <circle class="SubCircle" 
                     r="80"
@@ -307,6 +314,7 @@
                     <rect x="930" y=1220 width="100" height="35"/>
                     <text x="940" y="1245">Petent</text>
                 </g>
+                </a>
 
                 <polyline class="sub-line" points="780 1150 850 1080 880 1080"  />
                 <polyline class="sub-line" points="780 1150 880 1150"  />
@@ -337,8 +345,9 @@
                         <tspan  x="400" dy="1.2em">& RESEARCH JIF</tspan>
                     </text>
                 </g>
-
-                <g class="subBadge clicked" onclick="showContent('pagecharge')">
+                <a href="#top">
+                <g class="subBadge clicked"  onclick="showContent('pagecharge')">
+                    
                     <circle class="SubCircle" 
                     r="80"
                     cx="700"
@@ -350,8 +359,9 @@
                         <tspan x="700" dy="1.2em">Charge</tspan>
                     </text>
                 </g>
+                
 
-
+                
                 <g class="subBadge clicked" onclick="showContent('articlejif')">
                     <circle class="SubCircle" 
                     r="80"
@@ -364,7 +374,7 @@
                         <tspan x="100" dy="1.2em">Reward</tspan>
                     </text>
                 </g>
-            
+                </a>
             </g>
 
 
@@ -375,6 +385,7 @@
 		</div>
         
         <div class="info">
+            <div name="top"></div>
             
             <div class="content" id="ec-expedited-content" onclick="hideContent()">
                 <H1>ขั้นตอนขอพิจารณาเร่งด่วนด้านจริยธรรมวิจัยในมนุษย์
@@ -744,7 +755,7 @@
                     </p>
                 </div>
         
-            <div class="content" id="fund-content">
+            <div class="content"  id="fund-content">
                 <h1>ขั้นตอนการขอรับทุนอุดหนุนการวิจัย</h1>
                 
                     

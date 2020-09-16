@@ -7,7 +7,7 @@
             display: flex;
             flex-direction: column;
             width: 100%;
-            border: #8ab1d4 solid 1px;
+            
           }
           .flow{
             
@@ -17,11 +17,48 @@
           .info{
           
           width: 100%;
-          overflow: scroll;
+          
+          border: #000000 solid 1px;
           }
 
           svg {
             width: 100%;
+            
+          }
+
+
+          
+          h1 {
+            font-size: 5vw;
+            text-align: center;
+          }
+
+          p {
+            font-size: 3vw;
+          }
+
+          .reason {
+            font-size: 2.5vw;
+            width: fit-content;
+            padding-left: 15px ;
+            text-align: left;
+          }
+
+          .text-box {
+            width: 200px;
+            margin: auto;
+          }
+          
+
+          .content {
+        
+        
+            position: sticky;
+            top: 0;
+            padding: 10px;
+            display: none;
+          
+            
             
           }
           
@@ -69,16 +106,42 @@
       }
 
 
+      
+        h1 {
+          font-size: 2.2vw;
+          text-align: center;
+        }
+
+        p {
+          font-size: 1.5vw;
+        }
+
+        .reason {
+          font-size: 1.2vw;
+          width: fit-content;
+          padding-left: 15px ;
+          text-align: left;
+        }
+
+        .text-box {
+          width: fit-content; 
+          margin: auto;
+        }
+
 }  
+
+ 
+
 
 svg {
   font-size: 28px;
-  font-weight: 500;
 }
 
-.box-text text {
+svg .box-text{
   font-size: 26px;
 }
+
+
 
 body {
   font-family: 'Prompt', sans-serif;
@@ -108,15 +171,7 @@ body {
   
 }
 
-div.content h1 {
 
- 
-    font-size: 40px;
-    font-weight: 500;
-    text-align: center;
-  
-  
-}
 
 .clicked rect {
   stroke: rgba(79,192,141,0.5);
@@ -266,28 +321,20 @@ p.text-left {
   padding: 10px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px #000000;
-  width: fit-content; 
-  margin: auto;
+  
   
 }
 
-.reason {
-  
-  width: fit-content;
-  padding-left: 15px ;
-  text-align: left;
-  font-size: 24px;
-}
 
 
 .line {
   width: 0px;
   position: relative;
-  padding: 10px;
-  margin: 10px;
+  padding: 1px;
+  margin: 1px;
   left: 50%;
   height: 1em;
-  border-left: 6px solid black;
+  border-left: 6px dotted black;
   
 
   
