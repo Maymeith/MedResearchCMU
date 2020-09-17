@@ -30,6 +30,8 @@
           h1 {
             font-size: 5vw;
             text-align: center;
+            margin-left: 5vw;
+            margin-right: 5vw;
           }
 
           p {
@@ -65,7 +67,13 @@
             background-color: rgba(255,255,255);
             overflow-x: hidden;
           }
-            
+          
+          .closebtn {
+  
+            font-size: 100px;
+            margin-bottom: 20px;
+            margin-left: 90vw;
+          }
           }
           
 
@@ -110,7 +118,12 @@
         
       }
 
-
+      .closebtn {
+  
+        font-size: 100px;
+        margin-bottom: 10px;
+        margin-left: 30vw;
+      }
       
         h1 {
           font-size: 2.2vw;
@@ -352,4 +365,6 @@ a {
 .right-flex {
   align-self: flex-end;
 }
+
+
 
