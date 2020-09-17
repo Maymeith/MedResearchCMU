@@ -6,8 +6,7 @@
           body{
             display: flex;
             flex-direction: column;
-            width: 100%;
-            
+            width: 100%;            
           }
           .flow{
             
@@ -16,9 +15,9 @@
 
           .info{
           
-          width: 100%;
+          width: fit-content;
           
-          border: #000000 solid 1px;
+         
           }
 
           svg {
@@ -45,7 +44,7 @@
           }
 
           .text-box {
-            width: 200px;
+            width: 75vw;
             margin: auto;
           }
           
@@ -53,18 +52,24 @@
           .content {
         
         
-            position: sticky;
-            top: 0;
-            padding: 10px;
-            display: none;
-          
+           
             
+            height: 100%;
+            width: 100%;
+            display: none;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(255,255,255);
+            background-color: rgba(255,255,255);
+            overflow-x: hidden;
+          }
             
           }
           
-  
 
-}
+
 
 @media  (orientation: landscape) {
         body{
@@ -312,20 +317,19 @@ a {
   background-color: rgba(79,192,141,0.5);
 }
 
-p.text-left {
-    text-align: left;
-}
 
 .text-box {
   
   padding: 10px;
   border-radius: 20px;
   box-shadow: 2px 2px 4px #000000;
-  
+ 
   
 }
 
-
+.text-right {
+  text-align: right;
+}
 
 .line {
   width: 0px;
@@ -340,4 +344,12 @@ p.text-left {
   
 }
 
+
+.left-flex {
+  align-self: flex-start;
+}
+
+.right-flex {
+  align-self: flex-end;
+}
 
