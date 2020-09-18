@@ -147,8 +147,10 @@
         }
 
 }  
+span {
+  display: inline-block;
+}
 
- 
 
 
 svg {
@@ -300,6 +302,7 @@ rect {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   color: #121314;
   position: relative;
