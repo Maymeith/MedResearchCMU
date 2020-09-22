@@ -370,4 +370,11 @@ a {
 }
 
 
+.color-light-green {
+  background-color: rgba(79, 192, 79, 0.5)
+}
+
+.color-light-purple {
+  background-color: rgb(211, 145, 227,0.5);
+}
 
