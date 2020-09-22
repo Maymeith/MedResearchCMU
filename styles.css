@@ -391,9 +391,10 @@ a {
 
 .module > h4 {
   border-radius: 1rem 1rem 0 0 ;
-  padding: 1rem;
+  padding: 0.1rem 1rem;
   margin: 0 0 0.5rem 0;
   font-weight: 200;
+  
 }
 
 .module > p {
