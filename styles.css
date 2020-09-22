@@ -43,6 +43,7 @@
             width: fit-content;
             padding-left: 15px ;
             text-align: left;
+            margin: 5%;
           }
 
           .text-box {
@@ -430,4 +431,10 @@ a {
 .text-center {
   text-align: center;
   border-radius: 1rem;
+}
+
+.container-1 {
+
+  margin: 5%;
+  text-align: center;
 }
