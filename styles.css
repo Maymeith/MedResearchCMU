@@ -378,3 +378,56 @@ a {
   background-color: rgb(211, 145, 227,0.5);
 }
 
+
+.module {
+  background: white;
+  border: 1px solid #ccc;
+  margin: 3%;
+  width: auto;
+  border-radius: 1rem;
+
+}
+
+.module > h4 {
+  border-radius: 1rem 1rem 0 0 ;
+  padding: 1rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 200;
+}
+
+.module > p {
+  padding: 0 1rem;
+}
+
+.stripe-1 {
+  color: white;
+  background: repeating-linear-gradient(
+    75deg,
+    #60bc74,
+    #7dbc60 10px,
+    #469851 10px,
+    #46984d 20px
+  );
+}
+
+
+.stripe-4 {
+  
+  color: white;
+  background: repeating-linear-gradient(
+    -75deg,
+    #9966cc,
+    #9966cc 10px,
+    #baa1e7 10px,
+    #b19cd9 20px
+  );
+}
+
+.stripe-5 {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+  border-radius: 1rem;
+}
