@@ -386,7 +386,7 @@ a {
   margin: 3%;
   width: auto;
   border-radius: 1rem;
-  padding: 2%;
+ 
 
 }
 
@@ -399,7 +399,7 @@ a {
 }
 
 .module > p {
-  padding: 0 1rem;
+  padding: 1rem 1rem;
 }
 
 .stripe-1 {
